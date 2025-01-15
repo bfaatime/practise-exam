@@ -1,0 +1,32 @@
+.home{
+    .img{
+        position: absolute;
+  width: 400px;
+  height: 200px;
+    }
+    .title{
+        position: relative;
+        top: 160px;
+        left: 1000px;
+        width: 200px;
+        height: 100px;
+       font-size: 23px;
+
+    }
+    button {
+        background: #134ed8;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 4px;
+        a{
+            color: white;
+        }
+  
+        &:hover {
+          background: #08087a;
+          padding: 15px 25px;
+        }
+      }
+    }
